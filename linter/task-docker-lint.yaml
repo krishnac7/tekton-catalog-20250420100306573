@@ -7,7 +7,7 @@ spec:
   params:
     - name: path-to-dockerfile
       description: the path to the Dockerfile that is used for the build (default to `.` meaning current directory)
-      default: .
+      default: "app"
     - name: dockerfile
       description: The name of the Dockerfile
       default: "Dockerfile"
